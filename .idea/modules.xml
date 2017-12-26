@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/DLNN/.idea/DLNN.iml" filepath="$USER_HOME$/PycharmProjects/DLNN/.idea/DLNN.iml" />
+      <module fileurl="file://E:/software/linear-regression-sklearn-master/linear-regression-sklearn-master/.idea/linear-regression-sklearn-master.iml" filepath="E:/software/linear-regression-sklearn-master/linear-regression-sklearn-master/.idea/linear-regression-sklearn-master.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/mobile-deep-learning-master/mobile-deep-learning-master/.idea/mobile-deep-learning-master.iml" filepath="$USER_HOME$/Downloads/mobile-deep-learning-master/mobile-deep-learning-master/.idea/mobile-deep-learning-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/myblog.iml" filepath="$PROJECT_DIR$/.idea/myblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/pyspace.iml" filepath="$PROJECT_DIR$/../.idea/pyspace.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/simple-neural-network-master/simple-neural-network-master/.idea/simple-neural-network-master.iml" filepath="$USER_HOME$/Downloads/simple-neural-network-master/simple-neural-network-master/.idea/simple-neural-network-master.iml" />
+    </modules>
+  </component>
+</project>

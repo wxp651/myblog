@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+    <title>index</title>
+  <!--   <link rel="stylesheet" href="../static/css/base.css"/>
+    <link rel="stylesheet" href="../static/css/global.css"/>
+    <link rel="stylesheet" href="../static/css/login.css"/>
+    <script src="../static/js/html5shiv.min.js"></script>
+    <script src="../static/js/h5auto.js"></script> -->
+    <style>
+    	.login_box_error p{
+    		font-size:0.65rem;
+    		text-align:left;
+    		padding-left:11%;
+    		margin:0.3rem 0;
+    	}
+    </style>
+</head>
+<body>
+    <div class="login_box login_box_error">
+       <!--  <img src="../static/img/LOGO.png" class="icon_logo"  alt=""/>
+        <div class="bind_box">
+	        <h4>按以下方式调试解决</h4>
+		    <p>1.注销之前绑定的微信账号</p>
+		    <p>2.或者联系管理员手动解绑</p>
+		    <p>3.取消关注公众号后重新关注</p>
+	       	<p>4.稍等片刻再重新绑定</p>
+       	</div>-->
+        <h1><a href="">新文章</a></h1>
+        {% for article in articles %}
+        <a href="{% url 'blog:article_page' article.id %}"><h4>{{article.title}}</h4></a>
+        
+        {% endfor %}
+    </div>
+</body>
+</html>
